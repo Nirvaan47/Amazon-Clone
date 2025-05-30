@@ -1,5 +1,5 @@
 import React, { useEffect, useRef } from "react";
-import "../Products/products.css";
+import "../Products/Products.css";
 import Rating from "@mui/material/Rating";
 import Stack from "@mui/material/Stack";
 import { useState } from "react";
