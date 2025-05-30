@@ -1,0 +1,102 @@
+.products_navBar {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+    rgba(27, 31, 35, 0.15) 0px 0px 0px 1px; /* height:5vh */
+  padding: 5px;
+  flex-wrap: wrap;
+  font-family: Amazon Ember;
+}
+.Electronics {
+  font-weight: 700;
+}
+.Products_NavBar_Items {
+  cursor: pointer;
+}
+.main_content {
+  display: flex;
+  width: 100%;
+}
+.SideBar {
+  font-family: Amazon Ember;
+  margin-top: 10px;
+  padding-top: 20px;
+  width: 20%;
+  background-color:white;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+    rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  display: flex;
+  gap: 15px;
+  /* align-items: center; */
+  flex-direction: column;
+}
+
+.sideBarItems {
+  color: black;
+  font-weight: 700;
+}
+.items {
+  margin-left: 25px;
+}
+
+.products_container {
+  font-family: Amazon Ember;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  width:80%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  align-self: start;
+  gap: 15px;
+}
+
+.products_card {
+  display: flex;
+  flex-direction: column;
+  gap:30px;
+  background-color: white;
+  align-items: center;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  justify-content: center;
+  align-items: center;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+}
+.products_image{
+  width:100%;
+  height:50%;  
+}
+.laptop_image {
+  width: 100%;
+  height: 100%;
+}
+/* .products_description {
+  padding-bottom: 20px;
+} */
+.products_description {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.addToCart {
+  border: none;
+  background-color: rgb(212, 237, 49);
+  border-radius: 5px;
+  height: 50px;
+  width: 70px;
+  cursor:pointer;
+}
+.products_price{
+  font-size: 20px;
+  font-weight: bold;
+}
+.products_price_and_cart{
+  width:100%;
+  display:flex;
+  align-items: center;
+  justify-content: space-around;
+}

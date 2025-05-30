@@ -1,0 +1,41 @@
+.amazon_footer_outer_wrapper {
+  font-family: Amazon Ember;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: center;
+  background-color: #232f3e;
+  color: white;
+  gap: 35px;
+}
+
+.amazon_footer_wrapper {
+  display: flex;
+
+  /* align-items: center; */
+  justify-content: space-around;
+  gap: 5%;
+
+}
+
+.amazon_footer_divs {
+  display: flex;
+  flex-direction: column;
+}
+
+.amazon_div {
+  margin-top: 30px;
+}
+
+img {
+  width: 100px;
+}
+.heading{
+  margin-bottom:5px;
+}
+.footer_text{
+  font-weight: 50;
+  font-size:14px;
+  color:rgb(238,235,235);
+}

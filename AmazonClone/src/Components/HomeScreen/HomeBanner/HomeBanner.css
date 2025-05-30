@@ -1,0 +1,131 @@
+.Banner {
+  width: 100%;
+  object-fit: contain;
+  background-repeat: no-repeat;
+  position: relative;
+}
+#backgroundImg {
+  width: 100%;
+  height: 80vh;
+  mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+}
+.grayBackGroundBanner {
+  background-color: rgb(238, 235, 235);
+  height: 70vh;
+}
+.homeBannerItemDiv {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 20px;
+  top: 22%;
+  padding: 0 20px;
+  position: absolute;
+}
+.homeBannerItemCard {
+  margin-left:5%;
+  display: flex;
+  background-color: white;
+  flex-direction: column;
+  width: 343px;
+  box-sizing: border-box;
+  padding: 20px 30px 15px;
+}
+.homeBannerTitle {
+  margin: 0 20px;
+  font-size: 21px;
+  font-weight: 700;
+}
+.imgHomeBannerItemDivCard {
+  margin-top:5%;
+  margin: 10px 20px;
+  display: grid;
+  grid-template-columns: auto auto;
+}
+.imgBannerHomeDiv {
+  height: 144px;
+  width: 144px;
+  display: flex;
+  flex-direction: column;
+}
+#itemDes {
+  font-size: 14px;
+}
+.girdImg {
+  width: 100px;
+  height:100px;
+}
+
+@media only screen and (max-width:1400px) {
+  .homeBannerItemDiv{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 20px;
+    top: 22%;
+    padding: 0 20px;
+    position: absolute;
+  }
+}
+@media only screen and (max-width:1150px) {
+  .homeBannerItemDiv{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 80px;
+    top: 22%;
+    padding: 0 20px;
+    position: absolute;
+  }
+  .homeBannerItemCard {
+    margin-left:5%;
+    display: flex;
+    background-color: white;
+    flex-direction: column;
+    width: 400px;
+    box-sizing: border-box;
+    padding: 20px 30px 15px;
+  }
+  
+}
+@media only screen and (max-width:950px) {
+  .homeBannerItemDiv{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 50px;
+    top: 22%;
+    padding: 0 20px;
+    position: absolute;
+  }
+  .homeBannerItemCard {
+    margin-left:5%;
+    display: flex;
+    background-color: white;
+    flex-direction: column;
+    width: 343px;
+    box-sizing: border-box;
+    padding: 20px 30px 15px;
+  }
+}
+@media only screen and (max-width:700px) {
+  .homeBannerItemDiv{
+    display: grid;
+    grid-template-columns: auto;
+    gap: 50px;
+    top: 22%;
+    padding: 0 20px;
+    position: absolute;
+  }
+  .homeBannerItemCard {
+    margin-left:5%;
+    display: flex;
+    background-color: white;
+    flex-direction: column;
+    width: 343px;
+    box-sizing: border-box;
+    padding: 20px 30px 15px;
+  }
+  #backgroundImg {
+    width: 100%;
+    height: 50vh;
+    mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+  }
+  
+}

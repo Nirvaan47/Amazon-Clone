@@ -1,0 +1,126 @@
+body {
+  background-color: rgb(238, 235, 235);
+}
+.cart_main {
+  display: flex;
+  font-family: Amazon Ember;
+  width: 100%;
+  background-color: rgb(238, 235, 235);
+  margin: 10px;
+  gap: 15px;
+  min-height: 80vh;
+}
+
+.cart_products_list {
+  border-radius: 5px;
+  width: 70%;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+    rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  padding-left: 10px;
+  padding-right: 10px;
+  box-sizing: border-box;
+  background-color: white;
+}
+
+.price_text {
+  text-align: right;
+  width: 100%;
+}
+
+.cart_deselect {
+  color: #007185;
+}
+
+.products_list_wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.cart_product_card {
+  display: flex;
+  flex-shrink: 0;
+  border-top: 2px solid rgb(238, 235, 235);
+}
+
+.cart_image {
+  display: flex;
+  align-items: center;
+  width: 25%;
+}
+
+.fulfilledImg {
+  width: 80px;
+}
+.cart_text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 80%;
+  gap: 10px;
+  padding: 20px;
+}
+.cart_price {
+  text-align: right;
+  margin-top: 10px;
+  width: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  font-family: Amazon Ember;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.cart_button_class {
+  background-color: rgb(240, 191, 76);
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  padding: 5px;
+}
+
+.free_shipping {
+  font-size: 12px;
+  font-weight: 50;
+  color: grey;
+}
+
+.stock_status {
+  font-size: 14px;
+  color: green;
+}
+
+.image {
+  width: 70%;
+}
+
+.cart_product_description {
+  font-size: 20px;
+  width: 100%;
+}
+
+.cart_purchase_card {
+  font-family: Amazon Ember;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 28%;
+  background-color: white;
+  margin-right: 10px;
+  gap: 10px;
+  align-self: start;
+  padding-bottom: 15px;
+}
+
+.total_items_and_cost {
+  margin-top: 5%;
+  font-size: 18px;
+  font-family: Amazon Ember;
+  font-weight: 500;
+}
+
+.proceed_to_buy {
+  padding: 10px;
+  width: 90%;
+}
